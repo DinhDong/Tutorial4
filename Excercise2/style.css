@@ -21,20 +21,22 @@ h1 {
 	height: 150px; 
 	border-radius: 200px 200px 0 0; 
 	margin-bottom: 10px;
+	transition: 0.2s ease-in-out;
 } 
 
 .eyes {
-	
+	display: flex;
 }
 
 .head:hover {
 	width: 300px;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .upper_body { 
 	width: 300px; 
 	height: 150px;
+	margin: 0 auto; 
 	display: flex; 
 } 
 
@@ -42,6 +44,7 @@ h1 {
 	width: 40px; 
 	height: 125px;
 	border-radius: 100px; 
+	transition: 0.2s ease-in-out;
 } 
 
 .left_arm { 
@@ -52,6 +55,24 @@ h1 {
 	margin-left: 10px; 
 } 
 
+.left_arm:hover {
+	-webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    transition: 0.2s ease-in-out;
+}
+
+.right_arm:hover {
+	-webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    transition: 0.2s ease-in-out;
+}
+
 .torso { 
 	width: 200px; 
 	height: 200px;
@@ -61,6 +82,7 @@ h1 {
 .lower_body { 
 	width: 200px; 
 	height: 200px;
+	display: flex;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
 
@@ -70,6 +92,7 @@ h1 {
 	width: 40px; 
 	height: 120px;
 	border-radius: 0 0 100px 100px; 
+	transition: 0.2s ease-in-out;
 } 
 
 .left_leg { 
@@ -82,10 +105,20 @@ h1 {
     -o-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     transform: rotate(20deg);
+    transition: 0.2s ease-in-out;
 }
 
 .right_leg { 
 	margin-left: 30px; 
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    transition: 0.2s ease-in-out;
 }
 
 .left_eye, .right_eye { 
