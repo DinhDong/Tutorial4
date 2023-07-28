@@ -1,0 +1,62 @@
+.boxred{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left:7.5px;
+}
+
+.boxyellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 107.5px;
+    top: 107.5px;
+}
+
+.boxblue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 7.5px;
+    top: 207.5px;
+}
+
+.boxpink{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 207.5px;
+}
+
+.boxred2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 207.5px;
+    top: 207.5px;
+}
